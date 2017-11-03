@@ -1,14 +1,12 @@
-.headerContainer, .footerContainer {
+.headerContainer, .footerContainer, .paraWithImgContainer {
   display: flex;
   flex-direction: row;
-  justify-content: center;
 }
 
 .footerContainer {
-
   justify-content: center;
 }
 
-.headerItem, .footerItem{
+.headerItem, .footerItem, .paraWithImgItem{
   flex: 1;
 }

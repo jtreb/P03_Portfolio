@@ -20,7 +20,7 @@ h4 {
   color: #c4b18f;
 }
 
-p, ul li , ol li{
+p, ul li , ol li, figcaption {
   color: #d1d1d1;
   font-size: 0.9em;
   line-height: 1.7em;
@@ -29,6 +29,10 @@ p, ul li , ol li{
 code {
   display: block;
   white-space: pre-wrap;
+}
+
+img {
+  width: 100%;
 }
 
 .centreAlignText {
@@ -89,6 +93,10 @@ code {
 .subcategoryFooter {
   color: #c4b18f;
   padding-top: 1em;
+}
+
+.paraWithImgItem p {
+  padding-left: 2em;
 }
 
 #ethosStyleGuideSection, #templateSection {
