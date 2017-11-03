@@ -149,9 +149,10 @@ a, .inTextLink {
   background-color: #d1d1d1;
 }
 
-#ethosStyleGuideSection, #templateSection, #codeSection, #imageSection, #contentSection, #aboutProjectSection, #roleSection, #programsUsedSection, #processSection {
+#ethosStyleGuideSection, #templateSection, #codeSection, #imageSection, #contentSection, #aboutProjectSection, #roleSection, #programsUsedSection, #processSection, #finalRemarksSection {
   border-style: solid;
   border-color: #c4b18f;
   padding: 0em 1em;
   margin: 1em 0em;
+  border-width: thin;
 }
