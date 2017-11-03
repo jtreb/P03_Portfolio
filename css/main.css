@@ -35,6 +35,10 @@ code {
   white-space: pre-wrap;
 }
 
+img {
+  width: 70%;
+}
+
 .colourContainer {
   padding: 1em;
   background-color: #000000;
