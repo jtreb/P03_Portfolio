@@ -31,15 +31,11 @@ code {
   white-space: pre-wrap;
 }
 
-img {
-  width: 100%;
-}
-
 .centreAlignText {
   text-align: center;
 }
 
-.styleGuideSection {
+.styleGuideSection, .paraWithImgDiv {
   background-color: #442525;
   margin: 1em 0em;
   padding: 1em 2em;
@@ -97,6 +93,10 @@ img {
 
 .paraWithImgItem p {
   padding-left: 2em;
+}
+
+.paraWithImgItem img {
+  width: 100%;
 }
 
 #ethosStyleGuideSection, #templateSection {
