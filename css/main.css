@@ -64,7 +64,7 @@ code {
   padding: 1em;
 }
 
-.inTextLink {
+a, .inTextLink {
   color: #dbb83b;
 }
 
@@ -149,7 +149,7 @@ code {
   background-color: #d1d1d1;
 }
 
-#ethosStyleGuideSection, #templateSection, #codeSection, #imageSection, #contentSection {
+#ethosStyleGuideSection, #templateSection, #codeSection, #imageSection, #contentSection, #aboutProjectSection, #roleSection, #programsUsedSection, #processSection {
   border-style: solid;
   border-color: #c4b18f;
   padding: 0em 1em;
