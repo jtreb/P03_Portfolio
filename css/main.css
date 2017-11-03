@@ -26,9 +26,27 @@ p, ul li , ol li, figcaption {
   line-height: 1.7em;
 }
 
+p.centreAlignText {
+  color: black;
+}
+
 code {
   display: block;
   white-space: pre-wrap;
+}
+
+.colourContainer {
+  padding: 1em;
+  background-color: #000000;
+}
+
+.colourItem {
+  padding: 3em;
+  margin: 0em 0.25em;
+}
+
+.hOneForStyleGuide {
+  font-size: 2em;
 }
 
 .centreAlignText {
@@ -48,6 +66,10 @@ code {
 
 .inTextLink {
   color: #dbb83b;
+}
+
+.headerContainer {
+  margin: 0.5em 0em;
 }
 
 .headerItem {
@@ -99,7 +121,35 @@ code {
   width: 100%;
 }
 
-#ethosStyleGuideSection, #templateSection {
+#col8c3636 {
+  background-color: #8c3636;
+}
+
+#col442525 {
+  background-color: #442525;
+}
+
+#colffc700 {
+  background-color: #ffc700;
+}
+
+#coldbb83b {
+  background-color: #dbb83b;
+}
+
+#cold6ad62 {
+  background-color: #d6ad62;
+}
+
+#colc4b18f {
+  background-color: #c4b18f;
+}
+
+#cold1d1d1 {
+  background-color: #d1d1d1;
+}
+
+#ethosStyleGuideSection, #templateSection, #codeSection, #imageSection, #contentSection {
   border-style: solid;
   border-color: #c4b18f;
   padding: 0em 1em;

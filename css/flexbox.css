@@ -1,4 +1,4 @@
-.headerContainer, .footerContainer, .paraWithImgContainer {
+.headerContainer, .footerContainer, .paraWithImgContainer, .colourContainer {
   display: flex;
   flex-direction: row;
 }
@@ -7,6 +7,6 @@
   justify-content: center;
 }
 
-.headerItem, .footerItem, .paraWithImgItem{
+.headerItem, .footerItem, .paraWithImgItem, .colourItem{
   flex: 1;
 }

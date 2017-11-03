@@ -17,23 +17,40 @@
 
   <!-- navigation section -->
   <section>
-    <nav>
 
+    <nav>
       <!-- nav other pages -->
-      <div>
-        <ul>
-          <li><a href="styleGuide.html">Style Guide</a></li>
-          <li><a href="bioAndProcessAnalysis.html">Bio and Process Analyses</a></li>
-          <li><a href="citations.html">Citations</a></li>
-        </ul>
+      <div class="headerContainer">
+        <div class="headerItem">
+          <a href="styleGuide.html" class="centreAlignText">Style Guide</a>
+        </div>
+
+        <div class="headerItem">
+          <a href="citations.html" class="centreAlignText">Citation</a>
+        </div>
+
+        <div class="headerItem">
+          <a href="#" class="centreAlignText">Biography</a>
+        </div>
+
+        <div class="headerItem">
+          <a href="#" class="centreAlignText">Polygone</a>
+        </div>
+
+        <div class="headerItem">
+          <a href="#" class="centreAlignText">Echo</a>
+        </div>
       </div>
 
       <!-- nav within this page -->
-      <div>
-        <ul>
-          <li><a href="#ethosStyleGuideSection">Ethos Style Guide</a></li>
-          <li><a href="#templateSection">Templates</a></li>
-        </ul>
+      <div class="headerContainer">
+        <div class="headerItem">
+          <a href="#ethosStyleGuideSection" class="centreAlignText">Ethos Style Guide</a>
+        </div>
+
+        <div class="headerItem">
+          <a href="#templateSection" class="centreAlignText">Templates</a>
+        </div>
       </div>
 
     </nav>
@@ -43,35 +60,86 @@
   <section id="ethosStyleGuideSection">
     <h2 class="centreAlignText">Ethos Style Guide</h2>
 
-    <!-- mood board section -->
-    <section>
-      <h3>Mood Board</h3>
-    </section>
-
     <!-- colour scheme section -->
     <section>
-      <h3>Colour Scheme</h3>
+      <h3 class="centreAlignText">Colour Scheme</h3>
 
       <h4>CSS Selector:</h4>
-      <p></p>
+      <p>#8c3636</p>
+      <p>#442525</p>
+      <p>#ffc700</p>
+      <p>#dbb83b</p>
+      <p>#d6ad62</p>
+      <p>#c4b18f</p>
+      <p>#d1d1d1</p>
 
       <h4>Sample Code:</h4>
-      <code></code>
+      <div class="codeArea">
+        <code>
+            .className {
+              background-color: #ffffff;
+              color: #000000;
+            }
+        </code>
+      </div>
 
       <h4>Rendered element:</h4>
+      <div class="colourContainer">
+        <div class="colourItem" id="col8c3636">
+          <p class="centreAlignText">#8c3636</p>
+        </div>
+
+        <div class="colourItem" id="col442525">
+          <p class="centreAlignText">#442525</p>
+        </div>
+
+        <div class="colourItem" id="colffc700">
+          <p class="centreAlignText">#ffc700</p>
+        </div>
+
+        <div class="colourItem" id="coldbb83b">
+          <p class="centreAlignText">#dbb83b</p>
+        </div>
+
+        <div class="colourItem" id="cold6ad62">
+          <p class="centreAlignText">#d6ad62</p>
+        </div>
+
+        <div class="colourItem" id="colc4b18f">
+          <p class="centreAlignText">#c4b18f</p>
+        </div>
+
+        <div class="colourItem" id="cold1d1d1">
+          <p class="centreAlignText">#d1d1d1</p>
+        </div>
+      </div>
     </section>
 
     <!-- headings section -->
-    <section>
-      <h3>Headings</h3>
+    <section class="styleGuideSection">
+      <h3 class="centreAlignText">Headings</h3>
 
       <h4>CSS Selector:</h4>
-      <p></p>
+      <p>h1</p>
+      <p>h2</p>
+      <p>h3</p>
+      <p>h4</p>
 
       <h4>Sample Code:</h4>
-      <code></code>
+      <div class="codeArea">
+        <code>
+            &lt;h1&gt;Heading One&lt;/h1&gt;
+            &lt;h2&gt;Heading Two&lt;/h2&gt;
+            &lt;h3&gt;Heading Three&lt;/h3&gt;
+            &lt;h4&gt;Heading Four&lt;/h4&gt;
+        </code>
+      </div>
 
       <h4>Rendered element:</h4>
+      <h1 class=" hOneForStyleGuide">Heading One</h1>
+      <h2>Heading Two</h2>
+      <h3>Heading Three</h3>
+      <h4>Heading Four</h4>
     </section>
 
     <!-- paragraph section -->
@@ -95,7 +163,7 @@
     <!-- in-text section -->
 
     <section class="styleGuideSection">
-      <h3>In-Text</h3>
+      <h3 class="centreAlignText">In-Text</h3>
 
       <h4>CSS Selector:</h4>
       <p>.inTextLink</p>
@@ -113,7 +181,7 @@
 
     <!-- unordered list section -->
     <section class="styleGuideSection">
-      <h3>Bulleted List</h3>
+      <h3 class="centreAlignText">Bulleted List</h3>
 
       <h4>CSS Selector:</h4>
       <p>ul li</p>
@@ -143,7 +211,7 @@
 
     <!-- numbered list section -->
     <section class="styleGuideSection">
-      <h3>Numbered List</h3>
+      <h3 class="centreAlignText">Numbered List</h3>
 
       <h4>CSS Selector:</h4>
       <p>ol li</p>
@@ -175,11 +243,11 @@
 
   <!-- templates section -->
   <section id="templateSection">
-    <h2>Templates</h2>
+    <h2 class="centreAlignText">Templates</h2>
 
     <!-- navigation pane section -->
     <section>
-      <h3>Header Navigation Pane</h3>
+      <h3 class="centreAlignText">Header Navigation Pane</h3>
 
       <h4>CSS Selector:</h4>
       <p>.headerContainer</p>
@@ -220,7 +288,7 @@
 
     <!-- footer pane section -->
     <section>
-      <h3>Footer Navigation Pane</h3>
+      <h3 class="centreAlignText">Footer Navigation Pane</h3>
 
       <h4>CSS Selector:</h4>
       <p>.footerContainer</p>
@@ -285,7 +353,7 @@
 
     <!-- paragraphs with photos section -->
     <section>
-      <h3>Paragraph with Image</h3>
+      <h3 class="centreAlignText">Paragraph with Image</h3>
 
       <h4>CSS Selector:</h4>
       <p>.paraWithImgDiv</p>
