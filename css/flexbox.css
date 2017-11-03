@@ -1,0 +1,14 @@
+.headerContainer, .footerContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.footerContainer {
+
+  justify-content: center;
+}
+
+.headerItem, .footerItem{
+  flex: 1;
+}

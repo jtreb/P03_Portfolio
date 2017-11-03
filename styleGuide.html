@@ -13,7 +13,7 @@
 </head>
 
 <body>
-  <h1>P03: Style Guide</h1>
+  <h1 class="centreAlignText">P03: Style Guide</h1>
 
   <!-- navigation section -->
   <section>
@@ -41,7 +41,7 @@
 
   <!-- style guide section -->
   <section id="ethosStyleGuideSection">
-    <h2>Ethos Style Guide</h2>
+    <h2 class="centreAlignText">Ethos Style Guide</h2>
 
     <!-- mood board section -->
     <section>
@@ -75,55 +75,100 @@
     </section>
 
     <!-- paragraph section -->
-    <section>
-      <h3>Paragraph</h3>
+    <section class="styleGuideSection">
+      <h3 class="centreAlignText">Paragraph</h3>
 
       <h4>CSS Selector:</h4>
-      <p></p>
+      <p>p</p>
 
       <h4>Sample Code:</h4>
-      <code></code>
+      <div class="codeArea">
+        <code>
+          &lt;p&gt;Nulla vulputate feugiat est nec vestibulum. Aliquam nulla augue, suscipit quis sem sed, dignissim ultrices eros. Cras vehicula hendrerit nunc. Nam ut nisl posuere, tincidunt dui at, fermentum diam. Cras malesuada urna sed augue lacinia aliquam. Sed at dui nulla. Morbi ac placerat odio. Praesent mattis lorem a auctor viverra. Integer tincidunt, ex at viverra cursus, dui nulla viverra quam, at lobortis elit elit eget diam. Morbi dapibus id est ultrices aliquet. Duis vehicula pellentesque mollis.&lt;/p&gt;
+        </code>
+      </div>
 
       <h4>Rendered element:</h4>
+      <p>Nulla vulputate feugiat est nec vestibulum. Aliquam nulla augue, suscipit quis sem sed, dignissim ultrices eros. Cras vehicula hendrerit nunc. Nam ut nisl posuere, tincidunt dui at, fermentum diam. Cras malesuada urna sed augue lacinia aliquam. Sed at dui nulla. Morbi ac placerat odio. Praesent mattis lorem a auctor viverra. Integer tincidunt, ex at viverra cursus, dui nulla viverra quam, at lobortis elit elit eget diam. Morbi dapibus id est ultrices aliquet. Duis vehicula pellentesque mollis.</p>
     </section>
 
     <!-- in-text section -->
-    <section>
+
+    <section class="styleGuideSection">
       <h3>In-Text</h3>
 
       <h4>CSS Selector:</h4>
-      <p></p>
+      <p>.inTextLink</p>
 
       <h4>Sample Code:</h4>
-      <code></code>
+      <div class="codeArea">
+        <code>
+          &lt;p&gt;Aliquam nulla augue, suscipit quis sem sed, dignissim ultrices eros. Cras vehicula...&lt;p&gt;&lt;a href="#" class="inTextLink"&gt;Read more here&lt;/a&gt;!&lt;/p&gt;
+        </code>
+      </div>
 
       <h4>Rendered element:</h4>
+      <p>Aliquam nulla augue, suscipit quis sem sed, dignissim ultrices eros. Cras vehicula... <a href="#" class="inTextLink">Read more here</a>!</p>
     </section>
 
     <!-- unordered list section -->
-    <section>
+    <section class="styleGuideSection">
       <h3>Bulleted List</h3>
 
       <h4>CSS Selector:</h4>
-      <p></p>
+      <p>ul li</p>
 
       <h4>Sample Code:</h4>
-      <code></code>
+      <div class="codeArea">
+        <code class="organizeCode">
+          &lt;ul&gt;
+            &lt;li&gt;Listed Item Here&lt;/li&gt;
+            &lt;li&gt;Listed Item Here&lt;/li&gt;
+            &lt;li&gt;Listed Item Here&lt;/li&gt;
+            &lt;li&gt;Listed Item Here&lt;/li&gt;
+            &lt;li&gt;Listed Item Here&lt;/li&gt;
+          &lt;/ul&gt;
+        </code>
+      </div>
 
       <h4>Rendered element:</h4>
+      <ul>
+        <li>Listed Item Here</li>
+        <li>Listed Item Here</li>
+        <li>Listed Item Here</li>
+        <li>Listed Item Here</li>
+        <li>Listed Item Here</li>
+      </ul>
     </section>
 
     <!-- numbered list section -->
-    <section>
+    <section class="styleGuideSection">
       <h3>Numbered List</h3>
 
       <h4>CSS Selector:</h4>
-      <p></p>
+      <p>ol li</p>
 
       <h4>Sample Code:</h4>
-      <code></code>
+      <div class="codeArea">
+        <code class="organizeCode">
+          &lt;ol&gt;
+            &lt;li&gt;Listed Item Here&lt;/li&gt;
+            &lt;li&gt;Listed Item Here&lt;/li&gt;
+            &lt;li&gt;Listed Item Here&lt;/li&gt;
+            &lt;li&gt;Listed Item Here&lt;/li&gt;
+            &lt;li&gt;Listed Item Here&lt;/li&gt;
+          &lt;/ol&gt;
+        </code>
+      </div>
 
       <h4>Rendered element:</h4>
+      <ol>
+        <li>Listed Item Here</li>
+        <li>Listed Item Here</li>
+        <li>Listed Item Here</li>
+        <li>Listed Item Here</li>
+        <li>Listed Item Here</li>
+      </ol>
     </section>
 
   </section>
@@ -134,15 +179,108 @@
 
     <!-- navigation pane section -->
     <section>
-      <h3>Navigation Pane</h3>
+      <h3>Header Navigation Pane</h3>
 
       <h4>CSS Selector:</h4>
-      <p></p>
+      <p>.headerContainer</p>
+      <p>.headerItem</p>
+      <p>.centreAlignText</p>
+      <p>.headerItem a</p>
 
       <h4>Sample Code:</h4>
-      <code></code>
+      <div class="codeArea">
+        <code>
+          &lt;div class="headerContainer&gt;
+            &lt;div class="headerItem"&gt;
+              &lt;a href="#" class="centreAlignText"&gt;Template&lt;/a&gt;
+            &lt;/div&gt;
+          &lt;/div&gt;
+        </code>
+      </div>
 
       <h4>Rendered element:</h4>
+      <div class="headerContainer">
+        <div class="headerItem">
+          <a href="#" class="centreAlignText">Template</a>
+        </div>
+
+        <div class="headerItem">
+          <a href="#" class="centreAlignText">Template</a>
+        </div>
+
+        <div class="headerItem">
+          <a href="#" class="centreAlignText">Template</a>
+        </div>
+
+        <div class="headerItem">
+          <a href="#" class="centreAlignText">Template</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- footer pane section -->
+    <section>
+      <h3>Footer Navigation Pane</h3>
+
+      <h4>CSS Selector:</h4>
+      <p>.footerContainer</p>
+      <p>.footerItem</p>
+      <p>.footerItem a</p>
+      <p>.categoryFooter</p>
+      <p>.subcategoryFooter</p>
+      <p>.centreAlignText</p>
+
+      <h4>Sample Code:</h4>
+      <div class="codeArea">
+        <code>
+          &lt;div class="footerContainer&gt;
+            &lt;div class="footerItem"&gt;
+              &lt;a href="#" class="categoryFooter centreAlignText"&gt;Template&lt;/a&gt;
+              &lt;a href="#" class="subcategoryFooter centreAlignText"&gt;Template&lt;/a&gt;
+              &lt;a href="#" class="subcategoryFooter centreAlignText"&gt;Template&lt;/a&gt;
+              &lt;a href="#" class="subcategoryFooter centreAlignText"&gt;Template&lt;/a&gt;
+            &lt;/div&gt;
+          &lt;/section&gt;
+        </code>
+      </div>
+
+      <h4>Rendered element:</h4>
+      <section class="footerContainer">
+        <div class="footerItem">
+          <a href="#" class="categoryFooter centreAlignText">Template</a>
+          <a href="#" class="subcategoryFooter centreAlignText">Template</a>
+          <a href="#" class="subcategoryFooter centreAlignText">Template</a>
+          <a href="#" class="subcategoryFooter centreAlignText">Template</a>
+        </div>
+
+        <div class="footerItem">
+          <a href="#" class="categoryFooter centreAlignText">Template</a>
+          <a href="#" class="subcategoryFooter centreAlignText">Template</a>
+          <a href="#" class="subcategoryFooter centreAlignText">Template</a>
+          <a href="#" class="subcategoryFooter centreAlignText">Template</a>
+        </div>
+
+        <div class="footerItem">
+          <a href="#" class="categoryFooter centreAlignText">Template</a>
+          <a href="#" class="subcategoryFooter centreAlignText">Template</a>
+          <a href="#" class="subcategoryFooter centreAlignText">Template</a>
+          <a href="#" class="subcategoryFooter centreAlignText">Template</a>
+        </div>
+
+        <div class="footerItem">
+          <a href="#" class="categoryFooter centreAlignText">Template</a>
+          <a href="#" class="subcategoryFooter centreAlignText">Template</a>
+          <a href="#" class="subcategoryFooter centreAlignText">Template</a>
+          <a href="#" class="subcategoryFooter centreAlignText">Template</a>
+        </div>
+
+        <div class="footerItem">
+          <a href="#" class="categoryFooter centreAlignText">Template</a>
+          <a href="#" class="subcategoryFooter centreAlignText">Template</a>
+          <a href="#" class="subcategoryFooter centreAlignText">Template</a>
+          <a href="#" class="subcategoryFooter centreAlignText">Template</a>
+        </div>
+      </section>
     </section>
 
     <!-- paragraphs with photos section -->

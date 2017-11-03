@@ -1,0 +1,99 @@
+body {
+  font-family: sans-serif;
+  background-color: #8c3636;
+  margin: 2em 20em;
+}
+
+h1 {
+  color: #ffc700;
+}
+
+h2 {
+  color: #dbb83b;
+}
+
+h3 {
+  color: #d6ad62;
+}
+
+h4 {
+  color: #c4b18f;
+}
+
+p, ul li , ol li{
+  color: #d1d1d1;
+  font-size: 0.9em;
+  line-height: 1.7em;
+}
+
+code {
+  display: block;
+  white-space: pre-wrap;
+}
+
+.centreAlignText {
+  text-align: center;
+}
+
+.styleGuideSection {
+  background-color: #442525;
+  margin: 1em 0em;
+  padding: 1em 2em;
+}
+
+.codeArea {
+  background-color: #d6ad62;
+  padding: 1em;
+}
+
+.inTextLink {
+  color: #dbb83b;
+}
+
+.headerItem {
+  background-color: #442525;
+  padding: 1em;
+  margin: 0em 0.25em;
+}
+
+.headerItem a {
+  display: block;
+  text-decoration: none;
+  font-size: 1.2em;
+  color: #c4b18f;
+}
+
+.headerItem a:hover {
+  color: #ffc700;
+}
+
+.footerItem a {
+  display: block;
+  text-decoration: none;
+}
+
+.footerItem a:hover {
+  color: #ffc700;
+}
+
+.footerContainer {
+  background-color: #442525;
+  padding: 3em 0em;
+}
+
+.categoryFooter {
+  font-size: 1.2em;
+  color: #d6ad62;
+}
+
+.subcategoryFooter {
+  color: #c4b18f;
+  padding-top: 1em;
+}
+
+#ethosStyleGuideSection, #templateSection {
+  border-style: solid;
+  border-color: #c4b18f;
+  padding: 0em 1em;
+  margin: 1em 0em;
+}
