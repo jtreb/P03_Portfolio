@@ -3,14 +3,14 @@
 }
 
 
-/*-------------------------------header nav*/
-.navContainer {
+/*-------------------------------header footer nav*/
+.navHeaderContainer, .navFooterContainer {
   display: flex;
   flex-direction: row;
   justify-content: center;
 }
 
-.navItem {
+.navHeaderItem, .navFooterItem {
   flex: 1;
 }
 
@@ -19,22 +19,26 @@
 
 /*1498px / 16 =*/
 @media (max-width: 94em) {
-  body {
+  /*body {
     margin: 5em 15em;
-  }
+  }*/
 }
 
 /*880px / 16 =*/
 @media (max-width: 55em) {
-  body {
+  /*body {
     margin: 5em 10em;
-  }
+  }*/
 }
 
 /*586px / 16 =*/
 @media (max-width: 37em) {
-  body {
+  /*body {
     margin: 5em 5em;
+  }*/
+
+  .navFooterItem a {
+    font-size: 0.8em;
   }
 }
 
@@ -43,16 +47,20 @@
 @media (max-width: 26em) {
 
   /*-------------------------------default*/
-  body {
+  /*body {
     margin: 12em 2em;
-  }
+  }*/
 
   /*-------------------------------header nav*/
-  .navContainer {
+  .navHeaderContainer, .navFooterContainer {
     flex-direction: column;
   }
 
-  .navItem {
+  .navHeaderItem {
     padding: 0.5em 0em;
+  }
+
+  .navFooterItem a {
+    font-size: 1em;
   }
 }
