@@ -1,6 +1,36 @@
+/*-------------------------------default*/
 body {
   background-color: #111111;
 
   font-family: sans-serif;
   color: #686868;
+  margin: 5em 30em;
+
+  height: 2000px;
+}
+
+
+/*-------------------------------header nav*/
+.navContainer {
+  position: fixed;
+  width: 100%;
+  top: 0;
+  left: 0;
+
+  background-color: #ffffff;
+  opacity: 0.8;
+  padding: 1em 0em;
+}
+
+.navItem {
+  text-align: center;
+}
+
+.navItem a {
+  text-decoration: none;
+  color: #000000;
+}
+
+.navItem a:active, .navItem a:hover, .navItem a:focus {
+  color: #e55b5b;
 }

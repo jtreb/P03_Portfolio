@@ -1,0 +1,58 @@
+*, *::after, *::before {
+  box-sizing: border-box;
+}
+
+
+/*-------------------------------header nav*/
+.navContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.navItem {
+  flex: 1;
+}
+
+
+/*======================================================== MEDIA QUERY*/
+
+/*1498px / 16 =*/
+@media (max-width: 94em) {
+  body {
+    margin: 5em 15em;
+  }
+}
+
+/*880px / 16 =*/
+@media (max-width: 55em) {
+  body {
+    margin: 5em 10em;
+  }
+}
+
+/*586px / 16 =*/
+@media (max-width: 37em) {
+  body {
+    margin: 5em 5em;
+  }
+}
+
+
+/*412px / 16 =*/
+@media (max-width: 26em) {
+
+  /*-------------------------------default*/
+  body {
+    margin: 12em 2em;
+  }
+
+  /*-------------------------------header nav*/
+  .navContainer {
+    flex-direction: column;
+  }
+
+  .navItem {
+    padding: 0.5em 0em;
+  }
+}
