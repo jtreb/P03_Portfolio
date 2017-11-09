@@ -4,8 +4,22 @@ body {
 
   font-family: sans-serif;
   color: #686868;
-  /*margin: 5em 30em;*/
-  margin: 0em;
+}
+
+h1 {
+  width: 40%;
+  padding: 1.3em 1em;
+  font-size: 5em;
+  display: block;
+  color: #ffffff;
+}
+
+h2 {
+  color: #ce8944;
+}
+
+h3 {
+  color: #ffffff;
 }
 
 img {
@@ -16,6 +30,21 @@ img {
   z-index: -1;
 }
 
+.mainContent {
+  margin: 5em 30em;
+}
+
+.sectionContent {
+  background: #111111;
+  padding: 2em;
+  margin: 1em 0em;
+  border-style: solid;
+  border-width: thin;
+  border-bottom: none;
+  border-right: none;
+  border-radius: 2em;
+}
+
 
 /*-------------------------------header and footer nav*/
 .navHeaderContainer {
@@ -24,7 +53,7 @@ img {
   top: 0;
   left: 0;
 
-  background-color: #ffffff;
+  background-color: #000000;
   opacity: 0.8;
   padding: 1em 0em;
 }
@@ -35,7 +64,7 @@ img {
 
 .navHeaderItem a {
   text-decoration: none;
-  color: #000000;
+  color: #ffffff;
 }
 
 .navHeaderItem a:active, .navHeaderItem a:hover, .navHeaderItem a:focus, .navFooterItem a:active, .navFooterItem a:hover, .navFooterItem a:focus {

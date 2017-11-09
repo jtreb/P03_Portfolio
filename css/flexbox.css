@@ -19,23 +19,23 @@
 
 /*1498px / 16 =*/
 @media (max-width: 94em) {
-  /*body {
+  .mainContent {
     margin: 5em 15em;
-  }*/
+  }
 }
 
 /*880px / 16 =*/
 @media (max-width: 55em) {
-  /*body {
+  .mainContent {
     margin: 5em 10em;
-  }*/
+  }
 }
 
 /*586px / 16 =*/
 @media (max-width: 37em) {
-  /*body {
+  .mainContent {
     margin: 5em 5em;
-  }*/
+  }
 
   .navFooterItem a {
     font-size: 0.8em;
@@ -47,11 +47,11 @@
 @media (max-width: 26em) {
 
   /*-------------------------------default*/
-  /*body {
+  .mainContent {
     margin: 12em 2em;
-  }*/
+  }
 
-  /*-------------------------------header nav*/
+  /*-------------------------------header and footer nav*/
   .navHeaderContainer, .navFooterContainer {
     flex-direction: column;
   }
