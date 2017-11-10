@@ -140,3 +140,26 @@ iframe {
   color: #c1c1c1;
   font-size: 1em;
 }
+
+/*-------------------------------footer nav*/
+
+code {
+  display: block;
+  white-space: pre-wrap;
+  background-color: #e55b5b;
+  color: #ffffff;
+}
+
+.divContent {
+  border-style: double;
+  border-left: none;
+  border-right: none;
+  border-bottom: none;
+  padding: 1em 2em;
+}
+
+.divContent h1 {
+  margin: 0em;
+  padding: 0em;
+  text-align: left;
+}

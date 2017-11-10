@@ -52,6 +52,11 @@
     max-width: 100%;
   }
 
+  code {
+    padding: 1em 2em;
+    white-space: inherit;
+  }
+
   iframe {
     height: 20em;
   }
