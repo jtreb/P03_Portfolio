@@ -25,10 +25,18 @@ h3 {
   color: #ffffff;
 }
 
+/*-------------------------------default images*/
 .mainContent img {
   width: 100%;
 }
 
+.mainContent img:hover {
+  border-style: solid;
+  border-width: thin;
+  border-color: #ffffff;
+}
+
+/*-------------------------------YouTube video*/
 iframe {
   width: 100%;
   height: 30em;
@@ -56,7 +64,6 @@ iframe {
   border-width: thin;
   border-radius: 1em;
 }
-
 
 /*-------------------------------header and footer nav*/
 .navHeaderContainer {

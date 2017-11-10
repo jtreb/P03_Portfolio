@@ -2,13 +2,13 @@
   box-sizing: border-box;
 }
 
-.navHeaderContainer, .navFooterContainer {
+.navHeaderContainer, .navFooterContainer, .projectCardContainer {
   display: flex;
   flex-direction: row;
   justify-content: center;
 }
 
-.navHeaderItem, .navFooterItem {
+.navHeaderItem, .navFooterItem, .projectCardItem {
   flex: 1;
 }
 
@@ -54,6 +54,10 @@
 
   .mainContent {
     margin: 5em 10em;
+  }
+
+  .projectCardContainer {
+    flex-direction: column;
   }
 }
 
