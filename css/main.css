@@ -4,11 +4,14 @@ body {
 
   font-family: sans-serif;
   color: #686868;
+  margin: 0em;
 }
 
 h1 {
-  width: 40%;
-  padding: 1.3em 1em;
+  width: 100%;
+  text-align: center;
+  /*padding: 1em 1em 1.7em 1em;*/
+  padding-top: 6.5em;
   font-size: 5em;
   display: block;
   color: #ffffff;
@@ -31,7 +34,7 @@ img {
 }
 
 .mainContent {
-  margin: 5em 30em;
+  margin: 3em 30em;
 }
 
 .sectionContent {
