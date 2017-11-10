@@ -53,6 +53,7 @@ ul {
   padding: 1em 0em;
 }
 
+/*-------------------------------project cards*/
 .projectCardContainer {
   margin-bottom: 1em;
   background-color: #262626;
@@ -60,7 +61,7 @@ ul {
   border-radius: 1em;
 }
 
-.projectCardContainer img:hover {
+.projectCardContainer img:active, .projectCardContainer img:hover, .projectCardContainer img:focus {
   border-style: solid;
   border-width: thin;
   border-color: #ffffff;
@@ -162,6 +163,14 @@ code {
   margin: 0em;
   padding: 0em;
   text-align: left;
+}
+
+.navHeaderContainerStyleGuide {
+  width: 100%;
+
+  background-color: #000000;
+  opacity: 0.8;
+  padding: 1em 0em;
 }
 
 .colourItem {
