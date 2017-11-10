@@ -48,6 +48,10 @@
     padding-bottom: 0em;
   }
 
+  .doodleGrid img {
+    max-width: 100%;
+  }
+
   iframe {
     height: 20em;
   }

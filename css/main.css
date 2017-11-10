@@ -25,12 +25,21 @@ h3 {
   color: #ffffff;
 }
 
+.doodleGrid img {
+  max-width: 24%;
+}
+
 /*-------------------------------default images*/
 .mainContent img {
   width: 100%;
 }
 
-.mainContent img:hover {
+.mainContent figcaption {
+  text-align: center;
+  padding: 1em 0em;
+}
+
+.projectCardContainer img:hover {
   border-style: solid;
   border-width: thin;
   border-color: #ffffff;
