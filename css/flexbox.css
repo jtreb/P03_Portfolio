@@ -41,7 +41,7 @@
 }
 
 /*880px / 16 =*/
-@media (max-width: 55em) {
+@media (max-width: 70em) {
   h1 {
     font-size: 4em;
     padding-top: 4em;
