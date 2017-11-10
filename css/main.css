@@ -141,7 +141,7 @@ iframe {
   font-size: 1em;
 }
 
-/*-------------------------------footer nav*/
+/*-------------------------------style guide and template*/
 
 code {
   display: block;
@@ -162,4 +162,55 @@ code {
   margin: 0em;
   padding: 0em;
   text-align: left;
+}
+
+.colourItem {
+  text-align: center;
+  padding: 2em 0em;
+}
+
+#colffffff {
+  background-color: #ffffff;
+}
+
+#col000000 {
+  background-color: #000000;
+}
+
+#col111111 {
+  background-color: #111111;
+  border-style: solid;
+  border-width: thin;
+  border-color: #000000;
+}
+
+#col686868 {
+  background-color: #686868;
+  color: #000000;
+}
+
+#colce8944 {
+  background-color: #ce8944;
+}
+
+#coladadad {
+  background-color: #adadad;
+}
+
+#col262626 {
+  background-color: #262626;
+}
+
+#cole55b5b {
+  background-color: #e55b5b;
+  color: #000000;
+}
+
+#col565656 {
+  background-color: #565656;
+  color: #000000;
+}
+
+#colc1c1c1 {
+  background-color: #c1c1c1;
 }

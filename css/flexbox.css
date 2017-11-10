@@ -2,13 +2,13 @@
   box-sizing: border-box;
 }
 
-.navHeaderContainer, .navFooterContainer, .projectCardContainer {
+.navHeaderContainer, .navFooterContainer, .projectCardContainer, .colourContainer {
   display: flex;
   flex-direction: row;
   justify-content: center;
 }
 
-.navHeaderItem, .navFooterItem, .projectCardItem {
+.navHeaderItem, .navFooterItem, .projectCardItem, .colourItem {
   flex: 1;
 }
 
@@ -37,6 +37,10 @@
   h1 {
     font-size: 5em;
     padding-bottom: 0em;
+  }
+
+  .colourContainer {
+    flex-direction: column;
   }
 }
 
