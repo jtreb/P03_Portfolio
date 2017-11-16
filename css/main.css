@@ -3,7 +3,7 @@ body {
   background-color: #111111;
 
   font-family: sans-serif;
-  color: #686868;
+  color: #ffffff;
   margin: 0em;
 }
 
@@ -26,7 +26,7 @@ h3 {
 }
 
 h4 {
-  color: #adadad;
+  color: #686868;
 }
 
 ul {
@@ -89,6 +89,7 @@ iframe {
 
 .sectionContent {
   background: #111111;
+  border-color: #686868;
   padding: 2em;
   margin: 1em 0em;
   border-style: solid;
@@ -200,10 +201,6 @@ code {
 
 #colce8944 {
   background-color: #ce8944;
-}
-
-#coladadad {
-  background-color: #adadad;
 }
 
 #col262626 {
