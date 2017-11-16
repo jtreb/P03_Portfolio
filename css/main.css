@@ -3,7 +3,7 @@ body {
   background-color: #111111;
 
   font-family: sans-serif;
-  color: #ffffff;
+  color: #c1c1c1;
   margin: 0em;
 }
 
@@ -33,7 +33,7 @@ ul {
   line-height: 2em;
 }
 
-.inTextLink {
+a, .inTextLink {
   text-decoration: none;
   color: #ce8944;
 }
@@ -118,7 +118,9 @@ iframe {
   color: #ffffff;
 }
 
-.navHeaderItem a:active, .navHeaderItem a:hover, .navHeaderItem a:focus, .navFooterItem a:active, .navFooterItem a:hover, .navFooterItem a:focus, .inTextLink:active, .inTextLink:hover, .inTextLink:focus{
+.navHeaderItem a:active, .navHeaderItem a:hover, .navHeaderItem a:focus,
+.navFooterItem a:active, .navFooterItem a:hover, .navFooterItem a:focus,
+.inTextLink:active, .inTextLink:hover, .inTextLink:focus{
   color: #e55b5b;
 }
 
