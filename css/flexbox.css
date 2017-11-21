@@ -2,13 +2,13 @@
   box-sizing: border-box;
 }
 
-.navHeaderContainer, .navFooterContainer, .projectCardContainer, .colourContainer, .navHeaderContainerStyleGuide {
+.navHeaderContainer, .navFooterContainer, .projectCardContainer, .colourContainer, .navHeaderContainerStyleGuide, .compareSectionContainer {
   display: flex;
   flex-direction: row;
   justify-content: center;
 }
 
-.navHeaderItem, .navFooterItem, .projectCardItem, .colourItem {
+.navHeaderItem, .navFooterItem, .projectCardItem, .colourItem, .compareSectionItem {
   flex: 1;
 }
 
