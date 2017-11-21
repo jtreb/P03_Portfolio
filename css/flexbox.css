@@ -2,13 +2,13 @@
   box-sizing: border-box;
 }
 
-.navHeaderContainer, .navFooterContainer, .projectCardContainer, .colourContainer, .navHeaderContainerStyleGuide, .compareSectionContainer {
+.navHeaderContainer, .navFooterContainer, .projectCardContainer, .colourContainer, .navHeaderContainerStyleGuide, .compareContentContainer {
   display: flex;
   flex-direction: row;
   justify-content: center;
 }
 
-.navHeaderItem, .navFooterItem, .projectCardItem, .colourItem, .compareSectionItem {
+.navHeaderItem, .navFooterItem, .projectCardItem, .colourItem, .compareContentItem {
   flex: 1;
 }
 
