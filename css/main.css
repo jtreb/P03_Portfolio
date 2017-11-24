@@ -38,6 +38,10 @@ a, .inTextLink {
   color: #ce8944;
 }
 
+figure {
+  margin: 0em;
+}
+
 /*-------------------------------doodle grid*/
 .doodleGrid img {
   max-width: 24%;
