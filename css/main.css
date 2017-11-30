@@ -10,7 +10,6 @@ body {
 h1 {
   width: 100%;
   text-align: center;
-  /*padding: 1em 1em 1.7em 1em;*/
   padding-top: 6.5em;
   font-size: 5em;
   display: block;
@@ -40,6 +39,20 @@ a, .inTextLink {
 
 figure {
   margin: 0em;
+}
+
+.clickProjectTitle {
+  color: #ffffff;
+  font-size: 1.3em;
+}
+
+.clickProjectTitle:active, .clickProjectTitle:hover, .clickProjectTitle:focus {
+  color: #e55b5b;
+}
+
+/*-------------------------------compare content*/
+.compareContentItem {
+  padding: 0em 0.5em;
 }
 
 /*-------------------------------doodle grid*/
@@ -124,6 +137,7 @@ iframe {
   color: #ffffff;
 }
 
+/*contains header, footer intextlink*/
 .navHeaderItem a:active, .navHeaderItem a:hover, .navHeaderItem a:focus,
 .navFooterItem a:active, .navFooterItem a:hover, .navFooterItem a:focus,
 .inTextLink:active, .inTextLink:hover, .inTextLink:focus{
@@ -135,7 +149,6 @@ iframe {
 .navFooterContainer {
   background-color: #000000;
   padding: 5em 0em;
-  padding-bottom: 5em;
 }
 
 .navFooterItem a {
@@ -161,10 +174,7 @@ code {
 }
 
 .divContent {
-  border-style: double;
-  border-left: none;
-  border-right: none;
-  border-bottom: none;
+  border-top: double #ffffff;
   padding: 1em 2em;
 }
 
