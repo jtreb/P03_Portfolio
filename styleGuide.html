@@ -236,14 +236,15 @@
         <h3>Footer Navigation Bar</h3>
 
         <h4>CSS Selector:</h4>
-        <p>navFooterContainer</p>
-        <p>navFooterItem</p>
-        <p>navFooterItem a</p>
-        <p>navFooterItem a:active</p>
-        <p>navFooterItem a:hover</p>
-        <p>navFooterItem a:focus</p>
-        <p>footerCategory</p>
-        <p>footerCategory a</p>
+        <p>.navFooterContainer</p>
+        <p>.navFooterItem</p>
+        <p>.navFooterItem a</p>
+        <p>.navFooterItem a:active</p>
+        <p>.navFooterItem a:hover</p>
+        <p>.navFooterItem a:focus</p>
+        <p>.footerCategory</p>
+        <p>.footerCategory a</p>
+        <p>.separateBorder</p>
 
         <h4>Sample Code:</h4>
         <code>
@@ -294,18 +295,19 @@
         <h3>Project Card</h3>
 
         <h4>CSS Selector:</h4>
-        <p>projectCardContainer</p>
-        <p>projectCardContainer img:active</p>
-        <p>projectCardContainer img:hover</p>
-        <p>projectCardContainer img:focus</p>
-        <p>projectCardItem</p>
+        <p>.clickProjectTitle</p>
+        <p>.projectCardContainer</p>
+        <p>.projectCardContainer img:active</p>
+        <p>.projectCardContainer img:hover</p>
+        <p>.projectCardContainer img:focus</p>
+        <p>.projectCardItem</p>
 
         <h4>Sample Code:</h4>
         <code>
           &lt;div class="projectCardContainer"&gt;
 
             &lt;div class="projectCardItem"&gt;
-              &lt;h3&gt;Project Title&lt;/h3&gt;
+              &lt;a href= "#" class="clickProjectTitle"&gt;Project Title&lt;/a&gt;
               &lt;p&gt;Write a short description here about the project.&lt;/p&gt;
               &lt;h4&gt;Project Title&lt;/h4&gt;
               &lt;ul&gt;
@@ -327,7 +329,7 @@
         <h4>Rendered Element:</h4>
         <div class="projectCardContainer">
           <div class="projectCardItem">
-            <h3>Project Title</h3>
+            <a href="#" class="clickProjectTitle">Project Title</a>
 
             <p>Write a short description here about the project.</p>
 
