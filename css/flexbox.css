@@ -3,8 +3,16 @@
 }
 
 .navHeaderContainer, .navFooterContainer, .projectCardContainer, .colourContainer, .navHeaderContainerStyleGuide, .compareContentContainer {
+  display: -webkit-flex;
+  display: -ms-flex;
   display: flex;
+
+  -webkit-flex-direction: row;
+  -ms-flex-wrap: row;
   flex-direction: row;
+
+  -webkit-justify-content: center;
+  -ms-justify-content: center;
   justify-content: center;
 }
 
@@ -132,6 +140,8 @@
 
 /*contains footer, header and compareContent*/
   .navFooterContainer, .compareContentContainer {
+    -webkit-flex-direction: column;
+    -ms-flex-wrap: column;
     flex-direction: column;
   }
 
