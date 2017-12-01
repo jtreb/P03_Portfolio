@@ -14,6 +14,7 @@ h1 {
   font-size: 5em;
   display: block;
   color: #ffffff;
+  margin-bottom: 0em;
 }
 
 h2 {
@@ -41,6 +42,16 @@ figure {
   margin: 0em;
 }
 
+/*-------------------------------subtitles*/
+.subtitle {
+  color: #ffffff;
+  text-align: center;
+  font-weight: normal;
+  margin-top: 0em;
+}
+
+
+/*-------------------------------clickable titles*/
 .clickProjectTitle {
   color: #ffffff;
   font-size: 1.3em;
@@ -103,7 +114,7 @@ iframe {
 
 /*-------------------------------content layout*/
 .mainContent {
-  margin: 3em 30em;
+  margin: 0em 30em;
 }
 
 .sectionContent {
