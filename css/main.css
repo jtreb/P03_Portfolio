@@ -139,7 +139,7 @@ iframe {
   padding: 1em 0em;
 }
 
-.navHeaderItem, .navFooterItem {
+.navHeaderItem, .navContentItem, .navFooterItem {
   text-align: center;
 }
 
@@ -150,9 +150,18 @@ iframe {
 
 /*contains header, footer intextlink*/
 .navHeaderItem a:active, .navHeaderItem a:hover, .navHeaderItem a:focus,
+.navContentItem a:active, .navContentItem a:hover, .navContentItem a:focus,
 .navFooterItem a:active, .navFooterItem a:hover, .navFooterItem a:focus,
 .inTextLink:active, .inTextLink:hover, .inTextLink:focus{
   color: #e55b5b;
+}
+
+.navContentContainer {
+  background-color: #111111;
+  margin-bottom: 2em;
+  padding: 1em;
+  border-radius: 1em;
+  opacity: 0.8;
 }
 
 /*-------------------------------footer nav*/
